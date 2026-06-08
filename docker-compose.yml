@@ -1,0 +1,16 @@
+version: "3.8"
+name: "c4gt"
+services:
+  serve:
+    build:
+      context: .
+      args:
+        API_BASE_URL: ${API_BASE_URL}
+        API_AUTH_KEY: ${API_AUTH_KEY}
+      target: serve
+    ports:
+      - "5173:5173"
+    environment:
+      - NODE_ENV=production
+      - API_BASE_URL=${API_BASE_URL}
+      - API_AUTH_KEY=${API_AUTH_KEY}
