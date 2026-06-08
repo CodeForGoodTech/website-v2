@@ -17,8 +17,8 @@ export default function DMP() {
       <PageHeroBanner title="Dedicated Mentoring Program" currentPage="Dedicated Mentoring Program" />
 
       {/* Main Content - Iframe integration matching the live site */}
-      <main className="container mx-auto max-w-[1200px] px-4 pb-16 flex-grow">
-        <div className="w-full h-[1000px] rounded-xl border border-slate-200 bg-white shadow-sm overflow-hidden">
+      <main className="container mx-auto px-4 pb-16 flex-grow">
+        <div className="w-full h-[1000px] rounded-xl bg-white overflow-hidden">
           <iframe
             src="https://pl-app.iiit.ac.in/rcts/c4gt/dmp-a"
             width="100%"
