@@ -1,9 +1,9 @@
 import * as React from "react"
-import iitd from "../../assets/partners/iitd.png"
-import iitm from "../../assets/partners/iitm.png"
-import iiitd from "../../assets/partners/iiitd.png"
-import nsut from "../../assets/partners/nsut.png"
-import gwu from "../../assets/partners/gwu.png"
+import iitd from "../../assets/partners/IITD.png";
+import iitm from "../../assets/partners/IITM.png";
+import iiitd from "../../assets/partners/IIITD.png";
+import nsut from "../../assets/partners/NSUT.png";
+import gwu from "../../assets/partners/GWU.png";
 import github from "../../assets/partners/github.png"
 import dpga from "../../assets/partners/dpga.png"
 import nha from "../../assets/partners/nha.png"
