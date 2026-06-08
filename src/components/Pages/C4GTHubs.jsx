@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ArrowRight } from "lucide-react";
 import PageHeroBanner from "../PageHeroBanner";
-import alumniicon from "@/assets/alumni.svg";
+import alumniicon from "@/assets/Alumni.svg";
 import facultyicon from "@/assets/faculty.svg";
 import studenticon from "@/assets/student.svg";
 import meriticon from "@/assets/merit.svg";
