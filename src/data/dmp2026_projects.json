@@ -1,0 +1,162 @@
+[
+  {
+    "organization": "Avantifellows",
+    "project": "Futures"
+  },
+  {
+    "organization": "CHAOSS",
+    "project": "Minimum Viable Product (MVP) requirements"
+  },
+  {
+    "organization": "COSS",
+    "project": "Logs-to-training pipeline for agentic setups"
+  },
+  {
+    "organization": "IDinsight",
+    "project": "IDinsight Experiment Analytics & Bandits Engine Enhancements"
+  },
+  {
+    "organization": "Medic",
+    "project": "Enhance Bikram Sambat support in CHT"
+  },
+  {
+    "organization": "Medic",
+    "project": "Add API endpoints for advanced contact management operations"
+  },
+  {
+    "organization": "MOSIP",
+    "project": "Telemetry for Android Registration Client"
+  },
+  {
+    "organization": "MOSIP",
+    "project": "OCR Integration with Android Registration Client"
+  },
+  {
+    "organization": "MOSIP",
+    "project": "Degree Certificate Issuance via Pre-Authorized Code Flow"
+  },
+  {
+    "organization": "MOSIP",
+    "project": "Define Biometric Quality Through SDK During Biometric Capture"
+  },
+  {
+    "organization": "MOSIP",
+    "project": "Enhancement: Track Supervisor ID in Registration Packet Processing"
+  },
+  {
+    "organization": "MOSIP",
+    "project": "Collab | Un-Subscription & UIN Data Deletion via Collab Landing Page"
+  },
+  {
+    "organization": "NSUT",
+    "project": "[DMP 2026]: Gossipsub 1.4 Large Message Handling, Specification PR and Candidate Recommendation"
+  },
+  {
+    "organization": "NSUT",
+    "project": "ERC-20 Token Deployment with Multi-Agent libp2p Orchestration, Multiformats and IPLD Enhancements and PQC (post quantum cryptography) enabled communication"
+  },
+  {
+    "organization": "NSUT",
+    "project": "Deep Integration of EtherCalc / SocialCalc UI with py-libp2p for Decentralized Real-Time Collaboration"
+  },
+  {
+    "organization": "NSUT",
+    "project": "ZK Medical Billing Module for Verifiable & Privacy-Preserving Healthcare on Filecoin, Optimism & Starknet"
+  },
+  {
+    "organization": "Piramal Swasthya Management and Research Institute",
+    "project": "Helpline104-UI - Angular 4 to Angular 19 + Zard UI Migration"
+  },
+  {
+    "organization": "Piramal Swasthya Management and Research Institute",
+    "project": "FLW Mobile App - Gamification Module for ASHA Workers"
+  },
+  {
+    "organization": "Piramal Swasthya Management and Research Institute",
+    "project": "AMRIT Agentic AI Coding Framework"
+  },
+  {
+    "organization": "Piramal Swasthya Management and Research Institute",
+    "project": "MMU-UI - Angular 16 to Angular 19 + Zard UI Migration"
+  },
+  {
+    "organization": "Piramal Swasthya Management and Research Institute",
+    "project": "Helpline1097-UI - Angular 4 to Angular 19 + Zard UI Migration"
+  },
+  {
+    "organization": "PlanetRead",
+    "project": "Create Lightweight Audio-Subtitle Mismatch Flagging Tool"
+  },
+  {
+    "organization": "PlanetRead",
+    "project": "Create Intelligent Closed Caption (CC) Suggestion Tool"
+  },
+  {
+    "organization": "Project Tech4Dev",
+    "project": "Admin Portal for Dalgo"
+  },
+  {
+    "organization": "Sugarlabs",
+    "project": "Music Blocks maintenance"
+  },
+  {
+    "organization": "Sugarlabs",
+    "project": "AI Optimization"
+  },
+  {
+    "organization": "Sugarlabs",
+    "project": "Add lesson plans for MusicBlocks"
+  },
+  {
+    "organization": "Sugarlabs",
+    "project": "[DMP 2026]: Speak-AI Multilingual Support"
+  },
+  {
+    "organization": "Sugarlabs",
+    "project": "[DMP 2026]: Refactor Temperament #7171"
+  },
+  {
+    "organization": "Sugarlabs",
+    "project": "Enhance musicblocks to meet WCAG 2.1 AA standards, adding screen reader support, keyboard navigation improvements, and high contrast modes"
+  },
+  {
+    "organization": "Tekdi Technologies",
+    "project": "Multi-tenant SaaS LMS"
+  },
+  {
+    "organization": "The Mifos Initiative",
+    "project": "Mifos Save Mobile App"
+  },
+  {
+    "organization": "The Mifos Initiative",
+    "project": "[Flow] Pocket - Linked Accounts Management - JIRA MR-16"
+  },
+  {
+    "organization": "The Mifos Initiative",
+    "project": "Incorporation of Mifos X latest version into Mifos Gazelle"
+  },
+  {
+    "organization": "The Mifos Initiative",
+    "project": "Payment Hub EE, Operations UI in React"
+  },
+  {
+    "organization": "The Mifos Initiative",
+    "project": "Dynamic Pricing of Micro-loans Using Reinforcement Learning"
+  },
+  {
+    "organization": "TheApprenticeProject",
+    "project": "Native GovTech Learning App for Public Education Systems"
+  },
+  {
+    "organization": "TheApprenticeProject",
+    "project": "Developing a Cost-Efficient AI Model for Evaluating 21st Century Skills"
+  },
+  {
+    "organization": "TheApprenticeProject",
+    "project": "Building a Voice-First Conversational AI System for Government School Students"
+  },
+  {
+    "organization": "TheApprenticeProject",
+    "project": "Building Multilingual Voice Agents to Improve Learning Engagement in Government School Systems"
+  }
+]
