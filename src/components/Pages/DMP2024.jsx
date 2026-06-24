@@ -8,32 +8,32 @@ export default function DMP2024ImpactReport() {
     {
       title: "Retraining and caching pipelines for improved bot retrieval",
       author: "Contributor - Renuka B",
-      bg: "https://codeforgovtech.in/wp-content/uploads/2024/02/Tekdi-1.png",
-      link: "https://codeforgovtech.in/completed-project/sunbird-virtual-assistant/"
+      bg: "https://codeforgoodtech.in/wp-content/uploads/2024/02/Tekdi-1.png",
+      link: "https://codeforgoodtech.in/completed-project/sunbird-virtual-assistant/"
     },
     {
       title: "AI-powered chat interface for iGOT Karmayogi",
       author: "Contributor - Mansi Dwivedi",
-      bg: "https://codeforgovtech.in/wp-content/uploads/2024/10/MeitY_logo.png",
-      link: "https://codeforgovtech.in/completed-project/igot-karmayogi/"
+      bg: "https://codeforgoodtech.in/wp-content/uploads/2024/10/MeitY_logo.png",
+      link: "https://codeforgoodtech.in/completed-project/igot-karmayogi/"
     },
     {
       title: "Reliable Public Transport Information Chatbot",
       author: "Contributor - Kompal Layal",
-      bg: "https://codeforgovtech.in/wp-content/uploads/2024/02/SamagraX-scaled.webp",
-      link: "https://codeforgovtech.in/completed-project/jan-sahaiyak/"
+      bg: "https://codeforgoodtech.in/wp-content/uploads/2024/02/SamagraX-scaled.webp",
+      link: "https://codeforgoodtech.in/completed-project/jan-sahaiyak/"
     },
     {
       title: "Miniaturising Bhashini's ASR model",
       author: "Contributor - Aryan Sharma",
-      bg: "https://codeforgovtech.in/wp-content/uploads/2024/10/Bhashini_logo.webp",
-      link: "https://codeforgovtech.in/completed-project/nipun-lakshya-app/"
+      bg: "https://codeforgoodtech.in/wp-content/uploads/2024/10/Bhashini_logo.webp",
+      link: "https://codeforgoodtech.in/completed-project/nipun-lakshya-app/"
     },
     {
       title: "Seamless Patient Details Lookup through Facial Recognition",
       author: "Contributor - Thejas Raja Elandassery",
-      bg: "https://codeforgovtech.in/wp-content/uploads/2024/10/Piramal_Swasthya_logo.jpg",
-      link: "https://codeforgovtech.in/completed-project/amrit-mobile/"
+      bg: "https://codeforgoodtech.in/wp-content/uploads/2024/10/Piramal_Swasthya_logo.jpg",
+      link: "https://codeforgoodtech.in/completed-project/amrit-mobile/"
     }
   ];
 
@@ -155,7 +155,7 @@ export default function DMP2024ImpactReport() {
       {/* View All Projects Button */}
       <section className="flex justify-center mb-16">
         <a 
-          href="https://codeforgoodtech.in/dedicated-mentoring-program-2024-all-projects/"
+          href="/dedicated-mentoring-program-2024-all-projects/"
           className="inline-flex items-center justify-center gap-2 bg-[#880163] text-white font-medium text-[15px] px-[24px] py-[12px] rounded-full hover:bg-[#880163]/90 transition-colors"
         >
           <ArrowRight size={18} />

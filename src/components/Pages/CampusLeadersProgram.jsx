@@ -299,7 +299,7 @@ export default function CampusLeadersProgram() {
                     <b>Free Ticket to DPG Dialogues:</b> Get an invitation to
                     attend{" "}
                     <a
-                      href="https://codeforgovtech.in/initiatives/dpg-dialogues/"
+                      href="https://codeforgoodtech.in/initiatives/dpg-dialogues/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-[#880163] underline underline-offset-4 hover:text-[#740154]"

@@ -14,7 +14,7 @@ const ContactIntroOnly = () => {
     },
     {
       icon: <IoLogoYoutube className="h-[34px] w-[34px]" />,
-      href: "https://www.youtube.com/@codeforgovtech",
+      href: "https://www.youtube.com/@codeforgoodtech",
       label: "YouTube",
       bg: "bg-[#FF0000]",
     },

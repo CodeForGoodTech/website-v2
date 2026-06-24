@@ -4,6 +4,8 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Heart, Share2, ChevronDown, Loader2 } from "lucide-react";
 import PageHeroBanner from "../PageHeroBanner";
+
+
 const ALL_BLOGS = [
   {
     id: 10102,
@@ -11,8 +13,8 @@ const ALL_BLOGS = [
     category: "DMP 2023",
     title: "C4GT 2023: WarpSQL",
     image: "/downloaded-images/2024_03_4-1-1170x725.png",
-    link: "https://codeforgoodtech.in/c4gt-2023-warpsql/",
-    likes: 190
+    link: "/c4gt-2023-warpsql/",
+    likes: 193
   },
   {
     id: 10103,
@@ -20,8 +22,8 @@ const ALL_BLOGS = [
     category: "DMP 2023",
     title: "My Experience Contributing to AI-Tools",
     image: "/downloaded-images/2024_03_4-1-1170x725.png",
-    link: "https://codeforgoodtech.in/my-experience-contributing-to-ai-tools/",
-    likes: 208
+    link: "/my-experience-contributing-to-ai-tools/",
+    likes: 213
   },
   {
     id: 10104,
@@ -29,8 +31,8 @@ const ALL_BLOGS = [
     category: "DMP 2023",
     title: "My Experience Of Sprint And Working With Glific Teams",
     image: "/downloaded-images/2024_03_4-1-1170x725.png",
-    link: "https://codeforgoodtech.in/my-experience-of-sprint-and-working-with-glific-teams/",
-    likes: 189
+    link: "/my-experience-of-sprint-and-working-with-glific-teams/",
+    likes: 194
   },
   {
     id: 10105,
@@ -38,8 +40,8 @@ const ALL_BLOGS = [
     category: "DMP 2023",
     title: "Glific Mobile Application Udaipur Sprint",
     image: "/downloaded-images/2024_03_19-1170x725.webp",
-    link: "https://codeforgoodtech.in/glific-mobile-application-udaipur-sprint/",
-    likes: 172
+    link: "/glific-mobile-application-udaipur-sprint/",
+    likes: 173
   },
   {
     id: 10106,
@@ -47,8 +49,8 @@ const ALL_BLOGS = [
     category: "DMP 2023",
     title: "Exploring New Horizons My Journey With Glific And C4GT",
     image: "/downloaded-images/2024_03_4-1-1170x725.png",
-    link: "https://codeforgoodtech.in/exploring-new-horizons-my-journey-with-glific-and-c4gt/",
-    likes: 185
+    link: "/exploring-new-horizons-my-journey-with-glific-and-c4gt/",
+    likes: 187
   },
   {
     id: 10107,
@@ -56,8 +58,8 @@ const ALL_BLOGS = [
     category: "DMP 2023",
     title: "But If You Try Sometimes",
     image: "/downloaded-images/2024_03_14-2-1024x684.png",
-    link: "https://codeforgoodtech.in/but-if-you-try-sometimes/",
-    likes: 168
+    link: "/but-if-you-try-sometimes/",
+    likes: 171
   },
   {
     id: 10108,
@@ -65,8 +67,8 @@ const ALL_BLOGS = [
     category: "DMP 2023",
     title: "TurboRepo: The advent of monorepo",
     image: "/downloaded-images/2024_03_13-2-1170x725.png",
-    link: "https://codeforgoodtech.in/turborepo-the-advent-of-monorepo-%f0%9f%aa%84/",
-    likes: 191
+    link: "/turbo-repo-monorepo/",
+    likes: 192
   },
   {
     id: 10109,
@@ -74,8 +76,8 @@ const ALL_BLOGS = [
     category: "DMP 2023",
     title: "C4GT Halfway Checkpoint: Celebrating Progress and Growth",
     image: "/downloaded-images/2024_03_4-1-1170x725.png",
-    link: "https://codeforgoodtech.in/c4gt-halfway-checkpoint-celebrating-progress-and-growth/",
-    likes: 163
+    link: "/c4gt-halfway-checkpoint-celebrating-progress-and-growth/",
+    likes: 165
   },
   {
     id: 10110,
@@ -83,11 +85,37 @@ const ALL_BLOGS = [
     category: "DMP 2023",
     title: "0 to 11k Lines of Code: My Journey with C4gt",
     image: "/downloaded-images/2024_03_12-2-1024x647.png",
-    link: "https://codeforgoodtech.in/0-to-11k-lines-of-code-my-journey-with-c4gt/",
+    link: "/0-to-11k-lines-of-code-my-journey-with-c4gt/",
+    likes: 157
+  },
+  {
+    id: 10111,
+    date: { day: "13", month: "Mar" },
+    category: "DMP 2023",
+    title: "From Project Selection to Building an Airbyte Connector: My ongoing Journey with C4GT 2023",
+    image: "/downloaded-images/airbyte.png",
+    link: "/from-project-selection-to-building-an-airbyte-connector-my-ongoing-journey-with-c4gt-2023/",
+    likes: 139
+  },
+  {
+    id: 10112,
+    date: { day: "13", month: "Mar" },
+    category: "DMP 2023",
+    title: "My Journey as a Beckn Protocol Contributor",
+    image: "/downloaded-images/backdn.png",
+    link: "/my-journey-as-a-beckn-protocol-contributor/",
     likes: 153
+  },
+  {
+    id: 10113,
+    date: { day: "13", month: "Mar" },
+    category: "DMP 2023",
+    title: "Unlocking Opportunities: My New Journey as a C4GT Contributor",
+    image: "/downloaded-images/2024_03_4-1-1170x725.png",
+    link: "/unlocking-opportunities-my-new-journey-as-a-c4gt-contributor/",
+    likes: 142
   }
 ];
-
 const BlogsPage = () => {
   const [visibleCount, setVisibleCount] = useState(6);
   const [isLoading, setIsLoading] = useState(false);
