@@ -170,11 +170,11 @@ const requirements = [
   {
     title: "Dedicated Workspace",
     icon: "/downloaded-images/2025_12_dedicated_workspace.svg",
-  }, 
+  },
   {
     title: "Faculty In-Charge & Operational Support",
-   // icon: "https://codeforgoodtech.in/wp-content/uploads/2025/12/faculty.svg",
-   icon:facultyicon,
+    // icon: "https://codeforgoodtech.in/wp-content/uploads/2025/12/faculty.svg",
+    icon: facultyicon,
   },
   {
     title: "Student Identification & Screening",
@@ -489,9 +489,8 @@ export default function C4GTHubs() {
                           key={idx}
                           src={img}
                           alt={`C4GT Hub ${idx + 1}`}
-                          className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-700 ${
-                            idx === currentIntroImage ? "opacity-100" : "opacity-0"
-                          }`}
+                          className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-700 ${idx === currentIntroImage ? "opacity-100" : "opacity-0"
+                            }`}
                         />
                       ))}
                     </div>
@@ -662,9 +661,8 @@ export default function C4GTHubs() {
                 {journeyCards.map((card, idx) => (
                   <div key={idx} className="relative">
                     <div
-                      className={`relative overflow-visible rounded-[22px] bg-gradient-to-b ${card.gradient} px-7 pt-[84px] pb-[42px] text-white ${
-                        card.bordered ? "border-[4px] border-[#7d63bf]" : ""
-                      }`}
+                      className={`relative overflow-visible rounded-[22px] bg-gradient-to-b ${card.gradient} px-7 pt-[84px] pb-[42px] text-white ${card.bordered ? "border-[4px] border-[#7d63bf]" : ""
+                        }`}
                       style={{
                         minHeight: "414px",
                         boxShadow: "0 20px 38px rgba(0,0,0,0.14)",
@@ -838,198 +836,198 @@ export default function C4GTHubs() {
           </div>
         </section>
 
-       {/* ============================== */}
-{/* REQUIREMENTS - FINAL ALIGNMENT FIX */}
-{/* ============================== */}
-<section className="bg-[#f6f6f7] py-[56px] md:py-[64px]">
-  <div className="mx-auto w-full max-w-[1240px] px-4 md:px-6">
-    {/* Heading */}
-    <div className="mb-[34px] text-center">
-      <h2
-        className="m-0"
-        style={{
-          fontFamily: '"Raleway", sans-serif',
-          fontSize: "clamp(34px, 3vw, 44px)",
-          lineHeight: 1.22,
-          fontWeight: 500,
-          color: "#880163",
-        }}
-      >
-        What We Need from Partner Colleges
-      </h2>
-
-      <p
-        className="mx-auto mt-[16px] max-w-[920px]"
-        style={{
-          fontFamily: '"Nunito Sans", sans-serif',
-          fontSize: "16px",
-          lineHeight: "28px",
-          fontWeight: 400,
-          color: "#415674",
-          marginBottom: 0,
-        }}
-      >
-        Simple, clear support to help us build strong open-source development hubs on your campus
-      </p>
-    </div>
-
-    {/* DESKTOP / TABLET EXACT LAYOUT */}
-    <div className="hidden md:grid md:grid-cols-6 md:gap-x-[18px] md:gap-y-[20px]">
-      {requirements.map((req, idx) => {
-        const positionClass =
-          idx === 0
-            ? "col-span-2"
-            : idx === 1
-            ? "col-span-2"
-            : idx === 2
-            ? "col-span-2"
-            : idx === 3
-            ? "col-span-2 col-start-2"
-            : "col-span-2 col-start-4";
-
-        return (
-          <div
-            key={idx}
-            className={`flex flex-col items-center bg-white text-center ${positionClass}`}
-            style={{
-              minHeight: "198px",
-              borderRadius: "16px",
-              border: "1px solid #d8d8d8",
-              boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
-              padding: "18px 22px 20px",
-            }}
-          >
-            <div
-              className="flex items-center justify-center"
-              style={{
-                width: "82px",
-                height: "82px",
-                borderRadius: "8px",
-                background: "#98006f",
-                marginTop: "2px",
-                marginBottom: "18px",
-                flexShrink: 0,
-              }}
-            >
-              <img
-                src={req.icon}
-                alt={req.title}
-                className="object-contain brightness-0 invert"
+        {/* ============================== */}
+        {/* REQUIREMENTS - FINAL ALIGNMENT FIX */}
+        {/* ============================== */}
+        <section className="bg-[#f6f6f7] py-[56px] md:py-[64px]">
+          <div className="mx-auto w-full max-w-[1240px] px-4 md:px-6">
+            {/* Heading */}
+            <div className="mb-[34px] text-center">
+              <h2
+                className="m-0"
                 style={{
-                  width: "46px",
-                  height: "46px",
+                  fontFamily: '"Raleway", sans-serif',
+                  fontSize: "clamp(34px, 3vw, 44px)",
+                  lineHeight: 1.22,
+                  fontWeight: 500,
+                  color: "#880163",
                 }}
-              />
+              >
+                What We Need from Partner Colleges
+              </h2>
+
+              <p
+                className="mx-auto mt-[16px] max-w-[920px]"
+                style={{
+                  fontFamily: '"Nunito Sans", sans-serif',
+                  fontSize: "16px",
+                  lineHeight: "28px",
+                  fontWeight: 400,
+                  color: "#415674",
+                  marginBottom: 0,
+                }}
+              >
+                Simple, clear support to help us build strong open-source development hubs on your campus
+              </p>
             </div>
 
-            <h3
-              className="m-0"
+            {/* DESKTOP / TABLET EXACT LAYOUT */}
+            <div className="hidden md:grid md:grid-cols-6 md:gap-x-[18px] md:gap-y-[20px]">
+              {requirements.map((req, idx) => {
+                const positionClass =
+                  idx === 0
+                    ? "col-span-2"
+                    : idx === 1
+                      ? "col-span-2"
+                      : idx === 2
+                        ? "col-span-2"
+                        : idx === 3
+                          ? "col-span-2 col-start-2"
+                          : "col-span-2 col-start-4";
+
+                return (
+                  <div
+                    key={idx}
+                    className={`flex flex-col items-center bg-white text-center ${positionClass}`}
+                    style={{
+                      minHeight: "198px",
+                      borderRadius: "16px",
+                      border: "1px solid #d8d8d8",
+                      boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
+                      padding: "18px 22px 20px",
+                    }}
+                  >
+                    <div
+                      className="flex items-center justify-center"
+                      style={{
+                        width: "82px",
+                        height: "82px",
+                        borderRadius: "8px",
+                        background: "#98006f",
+                        marginTop: "2px",
+                        marginBottom: "18px",
+                        flexShrink: 0,
+                      }}
+                    >
+                      <img
+                        src={req.icon}
+                        alt={req.title}
+                        className="object-contain brightness-0 invert"
+                        style={{
+                          width: "46px",
+                          height: "46px",
+                        }}
+                      />
+                    </div>
+
+                    <h3
+                      className="m-0"
+                      style={{
+                        fontFamily: '"Raleway", sans-serif',
+                        fontSize: "19px",
+                        lineHeight: "1.45",
+                        fontWeight: 600,
+                        color: "#1b2336",
+                        maxWidth: "95%",
+                      }}
+                    >
+                      {req.title}
+                    </h3>
+                  </div>
+                );
+              })}
+            </div>
+
+            {/* MOBILE STACK */}
+            <div className="grid grid-cols-1 gap-[18px] md:hidden">
+              {requirements.map((req, idx) => (
+                <div
+                  key={idx}
+                  className="flex flex-col items-center bg-white text-center"
+                  style={{
+                    minHeight: "198px",
+                    borderRadius: "16px",
+                    border: "1px solid #d8d8d8",
+                    boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
+                    padding: "18px 22px 20px",
+                  }}
+                >
+                  <div
+                    className="flex items-center justify-center"
+                    style={{
+                      width: "82px",
+                      height: "82px",
+                      borderRadius: "8px",
+                      background: "#98006f",
+                      marginTop: "2px",
+                      marginBottom: "18px",
+                      flexShrink: 0,
+                    }}
+                  >
+                    <img
+                      src={req.icon}
+                      alt={req.title}
+                      className="object-contain brightness-0 invert"
+                      style={{
+                        width: "46px",
+                        height: "46px",
+                      }}
+                    />
+                  </div>
+
+                  <h3
+                    className="m-0"
+                    style={{
+                      fontFamily: '"Raleway", sans-serif',
+                      fontSize: "19px",
+                      lineHeight: "1.45",
+                      fontWeight: 600,
+                      color: "#1b2336",
+                      maxWidth: "95%",
+                    }}
+                  >
+                    {req.title}
+                  </h3>
+                </div>
+              ))}
+            </div>
+
+            {/* Bottom italic line */}
+            <p
+              className="mx-auto mt-[58px] text-center italic"
               style={{
-                fontFamily: '"Raleway", sans-serif',
-                fontSize: "19px",
-                lineHeight: "1.45",
-                fontWeight: 600,
-                color: "#1b2336",
-                maxWidth: "95%",
+                fontFamily: '"Nunito Sans", sans-serif',
+                fontSize: "17px",
+                lineHeight: "30px",
+                fontWeight: 400,
+                color: "#415674",
+                marginBottom: 0,
               }}
             >
-              {req.title}
-            </h3>
+              Partner with C4GT Hub and transform your campus into a center of open-source innovation.
+            </p>
           </div>
-        );
-      })}
-    </div>
-
-    {/* MOBILE STACK */}
-    <div className="grid grid-cols-1 gap-[18px] md:hidden">
-      {requirements.map((req, idx) => (
-        <div
-          key={idx}
-          className="flex flex-col items-center bg-white text-center"
-          style={{
-            minHeight: "198px",
-            borderRadius: "16px",
-            border: "1px solid #d8d8d8",
-            boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
-            padding: "18px 22px 20px",
-          }}
-        >
-          <div
-            className="flex items-center justify-center"
-            style={{
-              width: "82px",
-              height: "82px",
-              borderRadius: "8px",
-              background: "#98006f",
-              marginTop: "2px",
-              marginBottom: "18px",
-              flexShrink: 0,
-            }}
-          >
-            <img
-              src={req.icon}
-              alt={req.title}
-              className="object-contain brightness-0 invert"
-              style={{
-                width: "46px",
-                height: "46px",
+          <div className="mt-8 flex justify-center px-4">
+            <Button
+              asChild
+              className="h-auto rounded-[10px] bg-[#880163] px-8 sm:px-10 py-5 text-white hover:bg-[#6a014c] shadow-[0_8px_24px_rgba(255,215,0,0.18)]" style={{
+                fontFamily: '"Raleway", sans-serif',
+                fontSize: "15px",
+                fontWeight: 600,
               }}
-            />
+            >
+              <a
+                href="/contact-us/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center"
+              >
+                Become a C4GT Hub Partner
+                {/* <ArrowRight className="ml-2 h-4 w-4" /> */}
+              </a>
+            </Button>
           </div>
-
-          <h3
-            className="m-0"
-            style={{
-              fontFamily: '"Raleway", sans-serif',
-              fontSize: "19px",
-              lineHeight: "1.45",
-              fontWeight: 600,
-              color: "#1b2336",
-              maxWidth: "95%",
-            }}
-          >
-            {req.title}
-          </h3>
-        </div>
-      ))}
-    </div>
-
-    {/* Bottom italic line */}
-    <p
-      className="mx-auto mt-[58px] text-center italic"
-      style={{
-        fontFamily: '"Nunito Sans", sans-serif',
-        fontSize: "17px",
-        lineHeight: "30px",
-        fontWeight: 400,
-        color: "#415674",
-        marginBottom: 0,
-      }}
-    >
-      Partner with C4GT Hub and transform your campus into a center of open-source innovation.
-    </p>
-  </div>
-   <div className="mt-8 flex justify-center px-4">
-  <Button
-    asChild
-className="h-auto rounded-[10px] bg-[#880163] px-8 sm:px-10 py-5 text-white hover:bg-[#6a014c] shadow-[0_8px_24px_rgba(255,215,0,0.18)]"    style={{
-      fontFamily: '"Raleway", sans-serif',
-      fontSize: "15px",
-      fontWeight: 600,
-    }}
-  >
-    <a
-      href="https://codeforgoodtech.in/contact-us/"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="flex items-center justify-center"
-    >
-      Become a C4GT Hub Partner
-      {/* <ArrowRight className="ml-2 h-4 w-4" /> */}
-    </a>
-  </Button>
-</div>
-</section>
+        </section>
 
         {/* ============================== */}
         {/* OFFERINGS */}

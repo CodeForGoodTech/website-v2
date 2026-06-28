@@ -10,6 +10,124 @@ import { Button } from "@/components/ui/button";
 
 const PAGE_SIZE = 9;
 
+function getOrgLogo(orgName) {
+  if (!orgName) return null;
+  const name = orgName.toLowerCase().trim();
+  
+  if (name.includes("open function") || name.includes("openfn")) {
+    return "/downloaded-images/2024_10_Open_Function_logo.png";
+  }
+  if (name.includes("mifos")) {
+    return "/downloaded-images/2024_10_Mifos_Initiative_logo.webp";
+  }
+  if (name.includes("planetread") || name.includes("planet read")) {
+    return "/downloaded-images/2024_10_PlanetRead_logo-e1730096605747.jpeg";
+  }
+  if (name.includes("a2i")) {
+    return "/downloaded-images/2024_10_a2i_logo.png";
+  }
+  if (name.includes("tattle")) {
+    return "/downloaded-images/2024_10_Tattle_logo.png";
+  }
+  if (name.includes("bhashini")) {
+    return "/downloaded-images/2024_10_Bhashini_logo.webp";
+  }
+  if (name.includes("convegenius") || name.includes("conve genius")) {
+    return "/downloaded-images/2024_10_Convegenius_logo.png";
+  }
+  if (name.includes("dhiway")) {
+    return "/downloaded-images/2024_02_Dhiway.webp";
+  }
+  if (name.includes("mojaloop")) {
+    return "/downloaded-images/2024_10_Mojaloop_logo.png";
+  }
+  if (name.includes("samagra")) {
+    return "/downloaded-images/2024_10_SamagraX_logo.png";
+  }
+  if (name.includes("samanvay")) {
+    return "/downloaded-images/2024_02_samanvay-v2.png";
+  }
+  if (name.includes("national health authority") || name.includes("nha")) {
+    return "/downloaded-images/2024_02_National-Health-Authority-.webp";
+  }
+  if (name.includes("ekstep")) {
+    return "/downloaded-images/2024_02_EKStep_Logo.png";
+  }
+  if (name.includes("win over cancer")) {
+    return "/downloaded-images/2024_10_Win_over_cancer_logo.jpg";
+  }
+  if (name.includes("dimagi")) {
+    return "/downloaded-images/2024_10_Dimagi_logo.webp";
+  }
+  if (name.includes("tekdi")) {
+    return "/downloaded-images/2024_10_Tekdi_logo.png";
+  }
+  if (name.includes("unicef")) {
+    return "/downloaded-images/2024_10_UNICEF_logo.png";
+  }
+  if (name.includes("policyengine") || name.includes("policy engine")) {
+    return "/downloaded-images/2024_10_PolicyEngine_logo.png";
+  }
+  if (name.includes("avanti fellows") || name.includes("avanti")) {
+    return "/downloaded-images/2024_10_Avanti_Fellows_logo.jpg";
+  }
+  if (name.includes("fide")) {
+    return "/downloaded-images/2024_10_FIDE_logo.jpg";
+  }
+  if (name.includes("reap benefit") || name.includes("reapbenefit")) {
+    return "/downloaded-images/2024_10_Reap_benefit_logo-removebg-preview.png";
+  }
+  if (name.includes("shikshalokam") || name.includes("shiksha lokam")) {
+    return "/downloaded-images/2024_10_Shikshalokam_logo.png";
+  }
+  if (name.includes("swasth")) {
+    return "/downloaded-images/2024_10_Swasth_Alliance_logo.png";
+  }
+  if (name.includes("tech4dev") || name.includes("tech 4 dev")) {
+    return "/downloaded-images/2024_10_Project_Tech4Dev_logo-scaled.webp";
+  }
+  if (name.includes("piramal")) {
+    return "/downloaded-images/2024_10_Piramal_Swasthya_logo.jpg";
+  }
+  if (name.includes("arghyam")) {
+    return "/downloaded-images/2024_10_Arghyam_logo.png";
+  }
+  if (name.includes("belongg")) {
+    return "/downloaded-images/2024_10_Belongg_logo.png";
+  }
+  if (name.includes("idinsight") || name.includes("id insight")) {
+    return "/downloaded-images/2024_10_IDinsight_logo.jpg";
+  }
+  if (name.includes("haqdarshak")) {
+    return "/downloaded-images/2024_10_Haqdarshak_logo.png";
+  }
+  if (name.includes("sugarlabs") || name.includes("sugar labs")) {
+    return "/downloaded-images/2024_10_Sugarlabs_logo.png";
+  }
+  if (name.includes("egov")) {
+    return "/downloaded-images/2024_10_eGov_logo.png";
+  }
+  if (name.includes("zendalona")) {
+    return "/downloaded-images/2024_10_Zendalona_logo.jpeg";
+  }
+  if (name.includes("meity")) {
+    return "/downloaded-images/2024_10_MeitY_logo.png";
+  }
+  if (name.includes("thoughtworks") || name.includes("thought works")) {
+    return "/downloaded-images/2024_10_thoughtworks_logo.jpg";
+  }
+  if (name.includes("digital green") || name.includes("digitalgreen")) {
+    return "/downloaded-images/2024_10_Digital_green_logo.webp";
+  }
+  if (name.includes("sdm varanasi")) {
+    return "/downloaded-images/adm.png";
+  }
+  if (name.includes("nsut")) {
+    return "/assets/partners/NSUT.png";
+  }
+  return null;
+}
+
 export default function DMP2024ProjectsPage() {
   const [projects, setProjects] = useState([]);
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
@@ -76,7 +194,7 @@ export default function DMP2024ProjectsPage() {
           "",
 
         logo:
-          row["Logo"] || "",
+          row["Logo"] || getOrgLogo(row["Organization / Partner"]) || "",
       }));
 
       setProjects(formatted);
