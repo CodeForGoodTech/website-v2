@@ -147,7 +147,7 @@ export default function OpenCommunityProjects() {
         {/* Full-width Iframe Container */}
         <div className="w-full h-[800px] bg-white relative">
           <iframe
-            src="https://app.codeforgovtech.in/c4gt23/communityProgram"
+            src="https://app.codeforgoodtech.in/c4gt23/communityProgram"
             title="Code For GovTech Community Projects"
             className="w-full h-full border-none absolute inset-0"
             loading="lazy"
