@@ -4,7 +4,7 @@ import {
   CarouselContent,
   CarouselItem,
 } from "@/components/ui/carousel";
-import PageHeroBanner from "../PageHeroBanner";
+import PageHeroBanner from "../../PageHeroBanner";
 
 const partnerLogos = [
   {

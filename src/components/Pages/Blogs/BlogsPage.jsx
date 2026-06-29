@@ -3,7 +3,7 @@ import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Heart, Share2, ChevronDown, Loader2 } from "lucide-react";
-import PageHeroBanner from "../PageHeroBanner";
+import PageHeroBanner from "../../PageHeroBanner";
 
 
 const ALL_BLOGS = [
@@ -144,10 +144,6 @@ const BlogsPage = () => {
               
               {/* Image Container with Date Badge */}
               <div className="relative overflow-hidden aspect-[16/10] leading-[0]">
-                <div className="absolute top-0 left-0 z-10 bg-[#880163] text-white font-bold p-3 flex flex-col items-center justify-center min-w-[60px] shadow-lg">
-                  <span className="text-xl">{blog.date.day}</span>
-                  <span className="text-[10px] uppercase tracking-tighter">{blog.date.month}</span>
-                </div>
                 <a href={blog.link} target="_blank" rel="noreferrer" className="block h-full">
                   <img 
                     src={blog.image} 

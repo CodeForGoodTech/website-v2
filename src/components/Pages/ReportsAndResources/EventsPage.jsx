@@ -1,5 +1,5 @@
 import React from "react";
-import PageHeroBanner from "../PageHeroBanner";
+import PageHeroBanner from "../../PageHeroBanner";
 
 const EventsPage = () => {
   return (

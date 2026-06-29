@@ -1,5 +1,5 @@
 import React from 'react';
-import PageHeroBanner from '../PageHeroBanner';
+import PageHeroBanner from "../../PageHeroBanner";
 export default function DMP2025ImpactReportMain() {
   return (
     <div>

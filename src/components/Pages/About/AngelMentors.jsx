@@ -1,5 +1,5 @@
 // import React from "react";
-// import PageHeroBanner from "../PageHeroBanner";
+// import PageHeroBanner from "../../PageHeroBanner";
 // const whoCanBecome = [
 //   {
 //     title: "College Students",
@@ -408,7 +408,7 @@
 // export default AngelMentors;
 
 import React from "react";
-import PageHeroBanner from "../PageHeroBanner";
+import PageHeroBanner from "../../PageHeroBanner";
 
 const whoCanBecome = [
   {

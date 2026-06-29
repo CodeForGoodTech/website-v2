@@ -5,7 +5,7 @@ import { useParams } from "react-router-dom";
 import * as XLSX from "xlsx";
 
 import { ArrowRight } from "lucide-react";
-import PageHeroBanner from "../PageHeroBanner";
+import PageHeroBanner from "../../PageHeroBanner";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 
 function getOrgLogo(orgName) {
