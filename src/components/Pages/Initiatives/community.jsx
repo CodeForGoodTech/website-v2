@@ -130,30 +130,6 @@ export default function OpenCommunityProjects() {
   </div>
 </section>
 
-      {/* ============================== */}
-      {/* IFRAME SECTION */}
-      {/* ============================== */}
-      <section className="w-full">
-        {/* Mobile Title (Hidden on desktop per original CSS classes) */}
-        <div className="block md:hidden text-center mb-6 px-[15px]">
-          <h3
-            className="text-[#1b2336] text-[24px] font-[600]"
-            style={{ fontFamily: '"Raleway", sans-serif' }}
-          >
-            Code For GoodTech Community Projects
-          </h3>
-        </div>
-
-        {/* Full-width Iframe Container */}
-        <div className="w-full h-[800px] bg-white relative">
-          <iframe
-            src="https://app.codeforgoodtech.in/c4gt23/communityProgram"
-            title="Code For GovTech Community Projects"
-            className="w-full h-full border-none absolute inset-0"
-            loading="lazy"
-          />
-        </div>
-      </section>
 
       {/* ============================== */}
       {/* STANDARDS & FRAMEWORKS */}
