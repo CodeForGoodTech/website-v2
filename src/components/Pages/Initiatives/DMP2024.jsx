@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import PageHeroBanner from "../../PageHeroBanner";
 export default function DMP2024ImpactReport() {
   const [currentTestimonial, setCurrentTestimonial] = useState(0);
@@ -131,9 +132,9 @@ export default function DMP2024ImpactReport() {
         <section className="mb-[60px]">
           <div className="flex overflow-x-auto gap-[15px] pb-[20px] snap-x snap-mandatory scrollbar-hide" style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
             {completedProjects.map((project, idx) => (
-              <a
+              <Link
                 key={idx}
-                href={project.link}
+                to={project.link}
                 target="_blank"
                 rel="noreferrer"
                 className="relative w-[280px] md:w-[350px] h-[350px] shrink-0 snap-center rounded-[16px] overflow-hidden bg-white shadow-[0_2px_10px_rgba(0,0,0,0.05)] border border-gray-100 flex items-end p-5 transition-transform hover:-translate-y-1"
@@ -147,20 +148,20 @@ export default function DMP2024ImpactReport() {
                   <h3 className="text-[#BE9C06] text-[18px] font-bold leading-tight mb-[10px]">{project.title}</h3>
                   <p className="text-[14px] opacity-90 m-0">{project.author}</p>
                 </div>
-              </a>
+              </Link>
             ))}
           </div>
         </section>
 
         {/* View All Projects Button */}
         <section className="flex justify-center mb-16">
-          <a
-            href="/dedicated-mentoring-program-2024-all-projects/"
+          <Link
+            to="/dedicated-mentoring-program-2024-all-projects/"
             className="inline-flex items-center justify-center gap-2 bg-[#880163] text-white font-medium text-[15px] px-[24px] py-[12px] rounded-full hover:bg-[#880163]/90 transition-colors"
           >
             <ArrowRight size={18} />
             View All Projects
-          </a>
+          </Link>
         </section>
 
         {/* 3x2 Hover-reveal Stats Grid */}
