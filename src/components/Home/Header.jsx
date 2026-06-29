@@ -1,5 +1,6 @@
 import * as React from "react"
 import { ChevronDown, ChevronRight, Menu, X } from "lucide-react"
+import { Link } from "react-router-dom"
 import logoImage from "@/assets/logo.png"
 
 const initiatives = [
@@ -74,16 +75,16 @@ export function SiteHeader() {
           
           {/* Left: Logo */}
           <div className="flex shrink-0 items-center">
-            <a href="/" className="flex items-center">
+            <Link to="/" className="flex items-center">
               <img src={logoImage} alt="Code for Good Tech" className="h-22 w-auto object-contain" />
-            </a>
+            </Link>
           </div>
 
           {/* Center: Desktop Nav */}
           <nav className="hidden lg:flex flex-1 items-center justify-center gap-2">
-            <a href="/" className={navButtonBase}>
+            <Link to="/" className={navButtonBase}>
               Home
-            </a>
+            </Link>
 
             {/* Standardized Dropdowns with Right-Flyouts */}
             <SimpleDropdown
@@ -157,7 +158,7 @@ export function SiteHeader() {
           <div className="lg:hidden border-t border-[#EEF1F6] bg-white shadow-md max-h-[calc(100vh-88px)] overflow-y-auto">
             <div className="mx-auto max-w-[1320px] px-6 py-4">
               <div className="space-y-3">
-                <a href="/" className="block py-2 text-[15px] font-medium text-[#1B2336]">Home</a>
+                <Link to="/" className="block py-2 text-[15px] font-medium text-[#1B2336]">Home</Link>
                 <MobileSection title="Initiatives" items={initiatives} />
                 <MobileSection title="Community" items={communityMenu} />
                 <MobileSection title="Knowledge Assets" items={knowledgeMenu} />
@@ -195,25 +196,25 @@ function SimpleDropdown({ label, items, openMenu, openDropdown, closeDropdown, m
 
               return (
                 <div key={item.label} className="group relative">
-                  <a
-                    href={item.href}
+                  <Link
+                    to={item.href}
                     className="flex items-center justify-between rounded-lg px-4 py-3 text-[14px] font-medium text-[#1B2336] transition-colors duration-150 hover:bg-[#F7F8FC] hover:text-[#8A0E67]"
                   >
                     <span>{item.label}</span>
                     {hasChildren ? <ChevronRight className="h-4 w-4 opacity-50" /> : null}
-                  </a>
+                  </Link>
 
                   {/* FLYOUT MENU: This pops out to the right exactly like your screenshot */}
                   {hasChildren && (
                     <div className="absolute left-[calc(100%+8px)] top-0 hidden min-w-[240px] rounded-xl border border-[#EEF1F6] bg-white p-2 shadow-lg group-hover:block">
                       {item.children.map((child) => (
-                        <a
+                        <Link
                           key={child.label}
-                          href={child.href}
+                          to={child.href}
                           className="block rounded-lg px-4 py-3 text-[14px] font-medium text-[#1B2336] transition-colors duration-150 hover:bg-[#F7F8FC] hover:text-[#8A0E67]"
                         >
                           {child.label}
-                        </a>
+                        </Link>
                       ))}
                     </div>
                   )}
@@ -244,16 +245,16 @@ function MobileSection({ title, items }) {
         <div className="border-t border-[#EEF1F6] px-4 py-2 bg-white rounded-b-xl">
           {items.map((item) => (
             <div key={item.label} className="py-2">
-              <a href={item.href} className="block text-[14px] font-medium text-[#1B2336]">
+              <Link to={item.href} className="block text-[14px] font-medium text-[#1B2336]">
                 {item.label}
-              </a>
+              </Link>
 
               {item.children && item.children.length > 0 && (
                 <div className="mt-2 space-y-2 border-l-2 border-[#EEF1F6] pl-4 ml-1">
                   {item.children.map((child) => (
-                    <a key={child.label} href={child.href} className="block text-[13px] font-medium text-[#6B7280]">
+                    <Link key={child.label} to={child.href} className="block text-[13px] font-medium text-[#6B7280]">
                       {child.label}
-                    </a>
+                    </Link>
                   ))}
                 </div>
               )}

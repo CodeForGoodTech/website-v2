@@ -36,7 +36,7 @@ import DMP2024ProjectsPage from "./components/Pages/Initiatives/dmp2024projects"
 import DMP2024Detailed from "./components/Pages/Initiatives/DMP2024Detailed"
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/rcts/c4gtwebsite">
       <div className="min-h-screen bg-background font-sans">
         <SiteHeader />
 

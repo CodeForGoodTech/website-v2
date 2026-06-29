@@ -4,6 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 import { defineConfig } from "vite"
 
 export default defineConfig({
+  base: "/rcts/c4gtwebsite/",
   plugins: [
     react(),
     tailwindcss(), // <-- Add this plugin

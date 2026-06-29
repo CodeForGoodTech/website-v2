@@ -1,5 +1,6 @@
 {
   "name": "c4gt-main",
+  "homepage": "https://pl-app.iiit.ac.in/rcts/c4gtwebsite",
   "private": true,
   "version": "0.0.0",
   "type": "module",

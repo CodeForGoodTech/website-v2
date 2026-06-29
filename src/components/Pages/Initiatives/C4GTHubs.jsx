@@ -3,6 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 import PageHeroBanner from "../../PageHeroBanner";
 import alumniicon from "@/assets/Alumni.svg";
 import facultyicon from "@/assets/faculty.svg";
@@ -1016,15 +1017,15 @@ export default function C4GTHubs() {
                 fontWeight: 600,
               }}
             >
-              <a
-                href="/contact-us/"
+              <Link
+                to="/contact-us/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center"
               >
                 Become a C4GT Hub Partner
                 {/* <ArrowRight className="ml-2 h-4 w-4" /> */}
-              </a>
+              </Link>
             </Button>
           </div>
         </section>
