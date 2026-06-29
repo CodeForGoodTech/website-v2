@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
-import PageHeroBanner from '../PageHeroBanner';
+import PageHeroBanner from "../../PageHeroBanner";
 export default function DMP2024ImpactReport() {
   const [currentTestimonial, setCurrentTestimonial] = useState(0);
 

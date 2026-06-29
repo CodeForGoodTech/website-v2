@@ -8,7 +8,7 @@ import {
   BreadcrumbPage,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb"; 
-import PageHeroBanner from "../PageHeroBanner";
+import PageHeroBanner from "../../PageHeroBanner";
 
 export default function DMP() {
   return (

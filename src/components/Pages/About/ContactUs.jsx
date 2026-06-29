@@ -2,7 +2,7 @@ import React from "react";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { IoLogoYoutube } from "react-icons/io";
 import { MdOutlineMail } from "react-icons/md";
-import PageHeroBanner from "../PageHeroBanner";
+import PageHeroBanner from "../../PageHeroBanner";
 
 const ContactIntroOnly = () => {
   const socialLinks = [

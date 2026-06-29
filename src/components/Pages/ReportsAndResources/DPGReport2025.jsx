@@ -1,6 +1,6 @@
 // // import * as React from "react"
 // // import { Download } from "lucide-react"
-// // import PageHeroBanner from "../PageHeroBanner"
+// // import PageHeroBanner from "../../PageHeroBanner"
 // // const carouselImages = [
 // //   {
 // //     src: "/downloaded-images/2025_12_IMG_20251215_164108-e1772432128222.jpg",
@@ -217,7 +217,7 @@
 
 // import * as React from "react"
 // import { Download } from "lucide-react"
-// import PageHeroBanner from "../PageHeroBanner"
+// import PageHeroBanner from "../../PageHeroBanner"
 
 // const carouselImages = [
 //   {
@@ -439,7 +439,7 @@
 
 import * as React from "react"
 import { Download, Play, X } from "lucide-react"
-import PageHeroBanner from "../PageHeroBanner"
+import PageHeroBanner from "../../PageHeroBanner"
 
 const carouselImages = [
   {

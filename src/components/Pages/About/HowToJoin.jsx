@@ -1,6 +1,6 @@
 // import React from "react";
 // import { Button } from "@/components/ui/button";
-// import PageHeroBanner from "../PageHeroBanner";
+// import PageHeroBanner from "../../PageHeroBanner";
 
 // /* =========================
 //    THEME TOKENS (from site)
@@ -371,7 +371,7 @@
 
 import React from "react";
 import { Button } from "@/components/ui/button";
-import PageHeroBanner from "../PageHeroBanner";
+import PageHeroBanner from "../../PageHeroBanner";
 
 /* =========================
    THEME TOKENS (closer to live page)

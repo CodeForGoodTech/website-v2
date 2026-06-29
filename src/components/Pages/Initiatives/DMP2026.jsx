@@ -29,7 +29,7 @@ import WorkerImage from "@/assets/dmpworker.png";
 import techImage from "@/assets/techenthu.png";
 import dmproadmapImage from "@/assets/dmproadmap.png";
 import dmpMobileRoadmapImage from "@/assets/dmp-mobileroadmap.png";
-import PageHeroBanner from "../PageHeroBanner";
+import PageHeroBanner from "../../PageHeroBanner";
 import projects from "@/data/dmp2026_projects.json";
 import { Building2, FileText } from "lucide-react";
 
